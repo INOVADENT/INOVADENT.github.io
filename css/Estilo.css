@@ -1,0 +1,282 @@
+/*body*/
+body{
+		/* Para colocar una imagen de fondo */
+	background-image:url("../imagenes/fondocss.jpg");
+		/* Para que no se repita la imagen de fondo */
+	/*background-repeat: no-repeat;*/
+		/* Para ajustar la imagen de fondo */
+	/*background-size: 100% 100%;*/
+		/* Color de fondo */
+	/*background-color: #D7BDE2 */	
+		/* Font-family es para el tipo de letra, si no encuentra el primer tipo pone el segundo y asi sucesivamente*/
+	font-family: employed;
+		/* Font-size es para el tamaño de letra se expresa en pixeles*/
+	font-size: 20px;
+		/* color es para el color de la letra puedes colocar el valor hexadecimal, el nombre o valores rgb*/
+	color: #000000;
+}
+hr{
+		/* border es para la línea y color */
+	border: 5px solid #000000;
+		/* Border-radius es para el terminado de las orillas y se expresa en pixeles */
+	border-radius: 5px;
+	
+}
+p{
+		/*text-align es para alinear el texto*/
+	text-align: center;
+	font-size: 15px;
+	color: #030303 ;
+	/*background-color:#000000*/
+}
+table,td,tr{
+		/*Linea grosor y tipo de linea*/
+	border:3px solid; 
+		/*Color de la linea*/
+	border-color: #000000;
+		/*Alineado del centro*/
+	text-align:center;
+		/*Color de fondo*/
+	background-color: #6DA5F7;
+}
+
+th{
+	background-color: white;
+}
+ul{
+		/*Indica el tipo de viñeta, en este caso un circulo*/
+	list-style-type:circle;
+	list-style-position: inside;
+}
+ol{
+	list-style-position: inside;
+	list-style-type: upper-roman;
+}
+.pie{
+	text-align: center;
+	font-size: 15px;
+	color: #0D2075;
+	font-family: employed;
+	font-weight:bold;
+}
+.tabla{
+	text-align: center;
+	font-size: 17px;
+	color: #070707;
+	font-family: employed;
+	
+}
+.titulo{
+	text-align: center;
+	font-size: 30px;
+	color: #0D2075;
+	font-family: Astronomus;
+	font-weight:bold;
+	
+}
+.LMM{
+	width:400px;
+	height:200px;
+	padding:4px;
+	border:6PX solid #070707;
+}
+.FL{
+	width:600px;
+	height:400px;
+	padding:4px;
+	border:6PX solid #070707;
+}
+.DT{
+	width:100px;
+	height:100px;
+	border-radius:10px;:30%;
+}
+.LG{
+	width:150px;
+	height:200px;
+}
+.Pd{
+	width:600px;
+	height:400px;
+}
+@font-face{
+	font-family: employed;
+	src: url("../fuentes/Employed.ttf");
+}
+@font-face{
+	font-family: Astronomus;
+	src: url("../fuentes/Astronomus.ttf");
+}
+@font-face{
+	font-family: Louis George Cafe Bold Italic;
+	src: url("../fuentes/Louis George Cafe Bold Italic.ttf");
+}
+@font-face{
+	font-family: Type Machine;
+	src: url("../fuentes/Type Machine.ttf");
+}
+/*Es para poner texto sin necesidad de descargarlo*/
+.fuentegoogle{
+	font-family: 'Vesper Libre', serif;
+	font-size:25px;
+}
+/*uso de Div's*/
+/*Div o caja para el encabezado*/
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+div#top{
+	width:100%;
+	height:50px;
+	background-image:linear-gradient(#2CB1C4, #E3F8FA);
+}
+
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	height:600px;
+	background-image:radial-gradient(#2CB1C4, #E3F8FA);
+}
+div#piep{
+	margin-top:10px;
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#2CB1C4, #E3F8FA);
+}
+div#carta{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	height:900px;
+	background-image:radial-gradient(#2CB1C4, #E3F8FA);
+}
+div#contacto{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	height:940px;
+	background-image:radial-gradient(#2CB1C4, #E3F8FA);
+}
+div#servicios{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	height:1700px;
+	background-image:radial-gradient(#2CB1C4, #E3F8FA)
+}
+div#pto{
+	margin-top:10px;
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#65D0F5, #042029);
+}
+.productos{
+	text-align: center;
+	font-size: 15px;
+	color: #0D2075;
+	font-family: employed;
+	font-weight:bold;
+}
+.caja{
+	height:400px;
+	width:200px;
+	background:#2CB1C4;
+	border:1px solid #2CB1C4;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:20px;
+
+}
+.carrousel{
+    width:600px;
+    margin:auto;
+    box-sizing:border-box;
+}
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.itemCarrousel{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+    cursor:pointer;
+}
+.conterCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.conterCarrouselController >a{
+    text-decoration:none;
+    font-size:32px;
+    color:grey;
+}
+.itemCarrouselArrows >a >i {
+    color: #fff;;
+	background-color: #2c3c58;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	height:100px;
+	width:100px;
+	background:#2CB1C4;
+	border:1px solid #2CB1C4;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.menu:hover {
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+	transition: 0.3s;
+}
+
